@@ -1,0 +1,1 @@
+Replace this empty directory with the GoodsAD dataset.

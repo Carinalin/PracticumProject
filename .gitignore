@@ -1,0 +1,6 @@
+.DS_Store
+_git
+_gitignore
+__pycache__
+.idea
+_ipynb_checkpoints
