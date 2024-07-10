@@ -9,7 +9,7 @@ This project deeply explored [AnomalyGPT](https://github.com/CASIA-IVA-Lab/Anoma
 | EfficientAD | nelson1425/EfficientAD   | unofficial         |
 | DiffusionAD | HuiZhang0812/DiffusionAD | official           |
 
-## 1. Data Preparation
+## 1. Prepare Data
 
 1. GoodsAD: https://github.com/jianzhang96/GoodsAD
 2. MVtec-AD: https://www.mvtec.com/company/research/datasets/mvtec-ad/downloads
