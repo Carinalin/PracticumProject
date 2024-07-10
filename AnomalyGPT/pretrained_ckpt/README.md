@@ -1,6 +1,6 @@
 Please download the Imagebind-huge weights, pandagpt weights and vicuna-7b weights.
 
-The dataset follow the data tree:
+The dataset follows the data tree:
 
 ```
 imagebind_ckpt
