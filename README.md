@@ -25,8 +25,8 @@ This project deeply explored [AnomalyGPT](https://github.com/CASIA-IVA-Lab/Anoma
 > The detailed instructions for downloading weights can be found in chapters 2.2-2.4 of [this file](https://github.com/CASIA-IVA-Lab/AnomalyGPT/blob/main/README.md).
 
 1. **ImageBind Checkpoint**: download the pre-trained ImageBind model using [this link](https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth). After downloading, put the downloaded file (imagebind_huge.pth) in `AnomalyGPT/pretrained_ckpt/imagebind_ckpt/` directory.
-2. **Vicuna Checkpoint**: To prepare the pre-trained Vicuna model, please follow the instructions provided [[here\]](https://github.com/CASIA-IVA-Lab/AnomalyGPT/blob/main/pretrained_ckpt#1-prepare-vicuna-checkpoint). After downloading, put the downloaded file (imagebind_huge.pth) in `AnomalyGPT/pretrained_ckpt/vicuna_ckpt/7b_v0/ `directory.
-3. **Delta Weights of AnomalyGPT**: Download PandaGPT weights from [here](https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024). After downloading, put the downloaded file (imagebind_huge.pth) in `AnomalyGPT/pretrained_ckpt/pandagpt_ckpt/7b/` directory.
+2. **Vicuna Checkpoint**: To prepare the pre-trained Vicuna model, please follow the instructions provided [[here\]](https://github.com/CASIA-IVA-Lab/AnomalyGPT/blob/main/pretrained_ckpt#1-prepare-vicuna-checkpoint). After downloading, put the downloaded file in `AnomalyGPT/pretrained_ckpt/vicuna_ckpt/7b_v0/ `directory.
+3. **Delta Weights of AnomalyGPT**: Download PandaGPT weights from [here](https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024). After downloading, put the downloaded file in `AnomalyGPT/pretrained_ckpt/pandagpt_ckpt/7b/` directory.
 
 ### 2.2. Weights For EfficientAD
 
