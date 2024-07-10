@@ -1,5 +1,5 @@
-# AnomalyGPT_On_The_GoodsAD_Dataset
-This project deeply explored [AnomalyGPT](https://github.com/CASIA-IVA-Lab/AnomalyGPT), a novel anomaly detection model, on the [GoodsAD](https://github.com/jianzhang96/GoodsAD) dataset. The `Experiment_Results` directory records the results on each model. The code for each model was modified from the below repositories. Many thanks for these great works.
+# Practicum_Project_On_The_GoodsAD_Dataset
+This project deeply explored [AnomalyGPT](https://github.com/CASIA-IVA-Lab/AnomalyGPT), a novel anomaly detection model, on the [GoodsAD](https://github.com/jianzhang96/GoodsAD) dataset. Besides, another four wonderful models were also explored. The `Experiment_Results` directory records the results on each model. The code for each model was modified from the below repositories. Many thanks for these great works.
 
 | Model       | Github Code Source       | Implementaion Type |
 | ----------- | ------------------------ | ------------------ |
@@ -22,7 +22,7 @@ This project deeply explored [AnomalyGPT](https://github.com/CASIA-IVA-Lab/Anoma
 
 ### 2.1. Weights For AnomalyGPT
 
-> The detailed instruction for downloading weights can be found in chapter 2.2-2.4 of [this file](https://github.com/CASIA-IVA-Lab/AnomalyGPT/blob/main/README.md).
+> The detailed instructions for downloading weights can be found in chapters 2.2-2.4 of [this file](https://github.com/CASIA-IVA-Lab/AnomalyGPT/blob/main/README.md).
 
 1. **ImageBind Checkpoint**: download the pre-trained ImageBind model using [this link](https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth). After downloading, put the downloaded file (imagebind_huge.pth) in `AnomalyGPT/pretrained_ckpt/imagebind_ckpt/` directory.
 2. **Vicuna Checkpoint**: To prepare the pre-trained Vicuna model, please follow the instructions provided [[here\]](https://github.com/CASIA-IVA-Lab/AnomalyGPT/blob/main/pretrained_ckpt#1-prepare-vicuna-checkpoint). After downloading, put the downloaded file (imagebind_huge.pth) in `AnomalyGPT/pretrained_ckpt/vicuna_ckpt/7b_v0/ `directory.
@@ -30,11 +30,14 @@ This project deeply explored [AnomalyGPT](https://github.com/CASIA-IVA-Lab/Anoma
 
 ### 2.2. Weights For EfficientAD
 
-The weights that trained on GoodsAD can be downloaded from [here](https://drive.google.com/file/d/1oPjFpZ-3z0lpO6YNnOpqlWWvmCldw7Fe/view?usp=drive_link). After downloading and unzipping, put the weights in `EfficientAD/output` directory.
+The weights trained on GoodsAD can be downloaded from [here](https://drive.google.com/file/d/1oPjFpZ-3z0lpO6YNnOpqlWWvmCldw7Fe/view?usp=drive_link). After downloading and unzipping, put the weights in `EfficientAD/output` directory.
 
 ### 2.3. Weights For DiffusionAD
 
-The weights that trained on GoodsAD can be downloaded from [here](https://drive.google.com/file/d/1TJ3nJhe-VswIg95u9dxVkfOUIcohvEU6/view?usp=drive_link). After downloading and unzipping, put the weights in `DiffusionAD/outputs` directory.
+The weights trained on GoodsAD can be downloaded from [here](https://drive.google.com/file/d/1TJ3nJhe-VswIg95u9dxVkfOUIcohvEU6/view?usp=drive_link). After downloading and unzipping, put the weights in `DiffusionAD/outputs` directory.
+
+## 3. Run Models
+Please follow the `README.md` file of each model.
 
 
 
